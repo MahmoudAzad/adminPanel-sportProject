@@ -1,0 +1,88 @@
+@font-face {
+  src: url("../fonts/Vazir.ttf");
+  font-family: "Vazir";
+  font-weight: 100;
+}
+
+* {
+  font-family: "Vazir" !important;
+}
+
+
+
+// sidebar.jsx
+.ant-menu-submenu-title {
+  text-align: right !important;
+}
+  
+.sidebar-item a:hover {            
+  text-decoration: none;
+}
+
+.sidebar-item {
+  text-align: right;
+}
+
+.avatar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .caption {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 10px;
+
+    p {
+      font-size: 10px;
+      margin-top: 5px;
+    }
+  }
+}
+
+
+.menu {
+  background-color: #3c8dbc;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.HomePanel-container .box-container .box-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 5px;
+  color: white;
+
+  h2 {
+    font-weight: bold;
+  }
+}
+// .ant-carousel .slick-dots li button {
+//   background: black;
+//   opacity: 1;
+// }
+
+// .ant-carousel .slick-dots li.slick-active button {
+//   opacity: 1;
+//   background: #ff4ef6;
+// }
+
+// .ant-carousel-arrow-icon {
+//   color: red !important;
+// }
+
+// .ant-modal-content {
+//   background-color: red;
+// }
+
+.pointer-cursor{
+  cursor: pointer;
+}
